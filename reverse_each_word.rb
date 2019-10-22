@@ -9,6 +9,12 @@ string_array = []
   i += 1 
 end 
 
+ w = 0 
+  while w < string_array.count do
+    string_array[w].reverse 
+    w +=1 
+  end 
+  
  string_array
 
 end
