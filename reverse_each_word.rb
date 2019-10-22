@@ -18,7 +18,7 @@ string_array = []
 string = string.split
 i = 0 
 while i < string.count do 
-string = string.collect {|word| word[i]}
+string = string.each {|word| }
 i += 1 
 end 
 end
