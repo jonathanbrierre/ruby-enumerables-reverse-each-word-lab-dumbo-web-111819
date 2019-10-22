@@ -12,11 +12,11 @@ string_array = []
  string = string.split 
  string.each {|word| word.reverse}
  
-i = 0 
-while i < string.count do
-  puts string[i]
-  i += 1 
-end 
+# i = 0 
+# while i < string.count do
+#   puts string[i]
+#   i += 1 
+# end 
 
 
 
