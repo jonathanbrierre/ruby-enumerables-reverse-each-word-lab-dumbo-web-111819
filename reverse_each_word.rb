@@ -16,7 +16,7 @@ end
     w +=1 
   end 
  
- string_array
+ string = string_array.join(' ')
 
 end
 
