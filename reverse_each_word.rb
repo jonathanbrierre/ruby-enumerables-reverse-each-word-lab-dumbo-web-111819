@@ -18,7 +18,7 @@ string_array = []
 string = string.split
 
 # string_array << 
-string.each {|word| [word].split('')}
+string.each {|word| [word]}
 
 end 
 
