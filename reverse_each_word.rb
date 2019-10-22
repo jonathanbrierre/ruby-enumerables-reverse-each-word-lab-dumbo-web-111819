@@ -20,6 +20,6 @@ string = string.split
 string << string.each {|word| word.capitalize }
 
 end 
-end
+
 
 
