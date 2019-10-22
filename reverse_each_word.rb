@@ -9,7 +9,7 @@ string_array = []
   i += 1 
 end 
 
- 
+ string_array
 
 end
 
