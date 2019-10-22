@@ -11,7 +11,7 @@ end
 
  w = 0 
   while w < string_array.count do
-    string_array[w].reverse 
+    string_array[w] = string_array[w].reverse 
     w +=1 
   end 
   
