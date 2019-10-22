@@ -15,7 +15,8 @@ def reverse_each_word(string)
 #   end 
 # string = string_array.join(' ')
 
-
+string = string.split
+string.each {
 end
 
 
