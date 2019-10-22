@@ -17,7 +17,7 @@ def reverse_each_word(string)
 string_array = []
 string = string.split
 
-string << string.each {|word| word.capitalize }
+string_array << string.each {|word| word.capitalize }
 
 end 
 
