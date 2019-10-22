@@ -3,7 +3,8 @@ string_array = []
  string = string.split 
  i = 0 
  while i < string.count do 
-  string_array << string[i].split('')
+  # string_array << string[i].split('')
+  string[i]
   i += 1 
 end 
 
