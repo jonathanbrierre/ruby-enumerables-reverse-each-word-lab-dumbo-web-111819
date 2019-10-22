@@ -18,7 +18,7 @@ string_array = []
 string = string.split
 
 # string_array << 
-string.collect {|word|string_array << word}
+string.collect {|word| word}
 
 end 
 
