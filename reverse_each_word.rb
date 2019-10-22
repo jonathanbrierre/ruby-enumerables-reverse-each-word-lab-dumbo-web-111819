@@ -7,6 +7,7 @@ while i < string.count do
   i += 1 
 end 
 string_array
+string_array.collect {|word| word.reverse}
 # w = 0 
 #   while w < string_array.count do
 #     string_array[w] = string_array[w].reverse 
