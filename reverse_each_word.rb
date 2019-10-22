@@ -10,6 +10,8 @@ def reverse_each_word(string)
 # return reversed_string.join
 string_array = []
  string = string.split 
+ string.each {|word| word.reverse}
+ 
 i = 0 
 while i < string.count do
   puts string[i]
