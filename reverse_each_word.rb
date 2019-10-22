@@ -9,7 +9,7 @@ def reverse_each_word(string)
  
 # return reversed_string.join
 string_array = []
-string_array << string 
+string_array << string.split 
 i = 0 
 while i < string_array.count do
   puts string_array[i]
