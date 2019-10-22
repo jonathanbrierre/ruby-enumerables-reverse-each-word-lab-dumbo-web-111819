@@ -13,7 +13,7 @@ string_array << string
 i = 0 
 while i < string_array.count do
   puts string_array[i]
-  i += 0 
+  i += 1 
 end 
 
 
