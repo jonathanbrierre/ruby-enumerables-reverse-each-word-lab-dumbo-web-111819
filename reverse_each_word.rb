@@ -16,7 +16,11 @@ def reverse_each_word(string)
 # string = string_array.join(' ')
 string_array = []
 string = string.split
-string = string.each {|word| string_array << word}
+i = 0 
+while i < string.count do 
+string = string.collect {|word| word[i]}
+i += 1 
+end 
 end
 
 
