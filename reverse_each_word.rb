@@ -8,6 +8,7 @@ while i < string.count do
 end 
 string_array
 string_array.collect {|word| word.reverse}
+string_array.join(' ')
 # w = 0 
 #   while w < string_array.count do
 #     string_array[w] = string_array[w].reverse 
