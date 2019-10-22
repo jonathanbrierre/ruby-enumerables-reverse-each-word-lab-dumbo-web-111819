@@ -14,9 +14,9 @@ def reverse_each_word(string)
 #     w +=1 
 #   end 
 # string = string_array.join(' ')
-
+string_array = []
 string = string.split
-string = string.collect {|word| [] << word}
+string = string.collect {|word| string_array << word}
 end
 
 
